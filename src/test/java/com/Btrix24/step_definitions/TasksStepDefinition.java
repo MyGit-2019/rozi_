@@ -22,15 +22,14 @@ public class TasksStepDefinition {
 
     @Then("user navigate to {string}")
     public void user_navigate_to(String module) {
-        // Write code here that turns the phrase above into concrete actions
+
         pages.tasksPage().navigateToModule(module);
-        throw new cucumber.api.PendingException();
+
     }
 
     @Then("user clicks on new task")
     public void user_clicks_on_new_task() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new cucumber.api.PendingException();
+
     }
 
     @Then("user enters {string}")

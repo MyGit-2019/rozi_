@@ -1,0 +1,15 @@
+.classpath
+.project
+.settings/
+# IntelliJ
+.idea/
+*.iml
+*.iws
+# Mac
+.DS_Store
+# Maven
+log/
+target/
+# Extra
+extent-config.xml
+test-output/

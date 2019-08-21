@@ -12,7 +12,7 @@ Feature: As a user I should be able to create a task from activity stream.
     And  user verifies "task" is displayed
 
     Examples:
-    |username|password|
+    |username                     |password|
     |helpdesk45@cybertekschool.com|UserUser|
     |helpdesk46@cybertekschool.com|UserUser|
     |marketing45@cybertekschool.com|UserUser|

@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/activity_stream/task.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src\\test\\resources\\features\\activity_stream\\task.feature");
 formatter.feature({
   "name": "As a user I should be able to create a task from activity stream.",
   "description": "",
@@ -101,61 +101,81 @@ formatter.scenario({
     }
   ]
 });
+formatter.before({
+  "status": "skipped"
+});
 formatter.step({
   "name": "user on the landing page",
   "keyword": "Given "
 });
-formatter.match({});
+formatter.match({
+  "location": "TasksStepDefinition.user_on_the_landing_page()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user logs into application with helpdesk45@cybertekschool.com and UserUser",
   "keyword": "Then "
 });
-formatter.match({});
+formatter.match({
+  "location": "TasksStepDefinition.user_logs_into_application_with_helpdesk_cybertekschool_com_and_UserUser(String,String)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user navigate to \"Tasks\"",
   "keyword": "Then "
 });
-formatter.match({});
+formatter.match({
+  "location": "TasksStepDefinition.user_navigate_to(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user clicks on new task",
   "keyword": "And "
 });
-formatter.match({});
+formatter.match({
+  "location": "TasksStepDefinition.user_clicks_on_new_task()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user enters \"task\"",
   "keyword": "Then "
 });
-formatter.match({});
+formatter.match({
+  "location": "TasksStepDefinition.user_enters(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user click \"ADD TASK\"",
   "keyword": "Then "
 });
-formatter.match({});
+formatter.match({
+  "location": "TasksStepDefinition.user_click(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user verifies \"task\" is displayed",
   "keyword": "And "
 });
-formatter.match({});
+formatter.match({
+  "location": "TasksStepDefinition.user_verifies_is_displayed(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
+});
+formatter.after({
+  "status": "skipped"
 });
 formatter.scenario({
   "name": "User should be able to create a task",
@@ -167,61 +187,81 @@ formatter.scenario({
     }
   ]
 });
+formatter.before({
+  "status": "skipped"
+});
 formatter.step({
   "name": "user on the landing page",
   "keyword": "Given "
 });
-formatter.match({});
+formatter.match({
+  "location": "TasksStepDefinition.user_on_the_landing_page()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user logs into application with helpdesk46@cybertekschool.com and UserUser",
   "keyword": "Then "
 });
-formatter.match({});
+formatter.match({
+  "location": "TasksStepDefinition.user_logs_into_application_with_helpdesk_cybertekschool_com_and_UserUser(String,String)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user navigate to \"Tasks\"",
   "keyword": "Then "
 });
-formatter.match({});
+formatter.match({
+  "location": "TasksStepDefinition.user_navigate_to(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user clicks on new task",
   "keyword": "And "
 });
-formatter.match({});
+formatter.match({
+  "location": "TasksStepDefinition.user_clicks_on_new_task()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user enters \"task\"",
   "keyword": "Then "
 });
-formatter.match({});
+formatter.match({
+  "location": "TasksStepDefinition.user_enters(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user click \"ADD TASK\"",
   "keyword": "Then "
 });
-formatter.match({});
+formatter.match({
+  "location": "TasksStepDefinition.user_click(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user verifies \"task\" is displayed",
   "keyword": "And "
 });
-formatter.match({});
+formatter.match({
+  "location": "TasksStepDefinition.user_verifies_is_displayed(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
+});
+formatter.after({
+  "status": "skipped"
 });
 formatter.scenario({
   "name": "User should be able to create a task",
@@ -233,61 +273,81 @@ formatter.scenario({
     }
   ]
 });
+formatter.before({
+  "status": "skipped"
+});
 formatter.step({
   "name": "user on the landing page",
   "keyword": "Given "
 });
-formatter.match({});
+formatter.match({
+  "location": "TasksStepDefinition.user_on_the_landing_page()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user logs into application with marketing45@cybertekschool.com and UserUser",
   "keyword": "Then "
 });
-formatter.match({});
+formatter.match({
+  "location": "TasksStepDefinition.user_logs_into_application_with_marketing_cybertekschool_com_and_UserUser(Integer)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user navigate to \"Tasks\"",
   "keyword": "Then "
 });
-formatter.match({});
+formatter.match({
+  "location": "TasksStepDefinition.user_navigate_to(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user clicks on new task",
   "keyword": "And "
 });
-formatter.match({});
+formatter.match({
+  "location": "TasksStepDefinition.user_clicks_on_new_task()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user enters \"task\"",
   "keyword": "Then "
 });
-formatter.match({});
+formatter.match({
+  "location": "TasksStepDefinition.user_enters(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user click \"ADD TASK\"",
   "keyword": "Then "
 });
-formatter.match({});
+formatter.match({
+  "location": "TasksStepDefinition.user_click(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user verifies \"task\" is displayed",
   "keyword": "And "
 });
-formatter.match({});
+formatter.match({
+  "location": "TasksStepDefinition.user_verifies_is_displayed(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
+});
+formatter.after({
+  "status": "skipped"
 });
 formatter.scenario({
   "name": "User should be able to create a task",
@@ -299,61 +359,81 @@ formatter.scenario({
     }
   ]
 });
+formatter.before({
+  "status": "skipped"
+});
 formatter.step({
   "name": "user on the landing page",
   "keyword": "Given "
 });
-formatter.match({});
+formatter.match({
+  "location": "TasksStepDefinition.user_on_the_landing_page()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user logs into application with marketing46@cybertekschool.com and UserUser",
   "keyword": "Then "
 });
-formatter.match({});
+formatter.match({
+  "location": "TasksStepDefinition.user_logs_into_application_with_marketing_cybertekschool_com_and_UserUser(Integer)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user navigate to \"Tasks\"",
   "keyword": "Then "
 });
-formatter.match({});
+formatter.match({
+  "location": "TasksStepDefinition.user_navigate_to(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user clicks on new task",
   "keyword": "And "
 });
-formatter.match({});
+formatter.match({
+  "location": "TasksStepDefinition.user_clicks_on_new_task()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user enters \"task\"",
   "keyword": "Then "
 });
-formatter.match({});
+formatter.match({
+  "location": "TasksStepDefinition.user_enters(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user click \"ADD TASK\"",
   "keyword": "Then "
 });
-formatter.match({});
+formatter.match({
+  "location": "TasksStepDefinition.user_click(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user verifies \"task\" is displayed",
   "keyword": "And "
 });
-formatter.match({});
+formatter.match({
+  "location": "TasksStepDefinition.user_verifies_is_displayed(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
+});
+formatter.after({
+  "status": "skipped"
 });
 formatter.scenario({
   "name": "User should be able to create a task",
@@ -365,61 +445,81 @@ formatter.scenario({
     }
   ]
 });
+formatter.before({
+  "status": "skipped"
+});
 formatter.step({
   "name": "user on the landing page",
   "keyword": "Given "
 });
-formatter.match({});
+formatter.match({
+  "location": "TasksStepDefinition.user_on_the_landing_page()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user logs into application with hr45@cybertekschool.com and UserUser",
   "keyword": "Then "
 });
-formatter.match({});
+formatter.match({
+  "location": "TasksStepDefinition.user_logs_into_application_with_hr_cybertekschool_com_and_UserUser(Integer)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user navigate to \"Tasks\"",
   "keyword": "Then "
 });
-formatter.match({});
+formatter.match({
+  "location": "TasksStepDefinition.user_navigate_to(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user clicks on new task",
   "keyword": "And "
 });
-formatter.match({});
+formatter.match({
+  "location": "TasksStepDefinition.user_clicks_on_new_task()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user enters \"task\"",
   "keyword": "Then "
 });
-formatter.match({});
+formatter.match({
+  "location": "TasksStepDefinition.user_enters(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user click \"ADD TASK\"",
   "keyword": "Then "
 });
-formatter.match({});
+formatter.match({
+  "location": "TasksStepDefinition.user_click(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user verifies \"task\" is displayed",
   "keyword": "And "
 });
-formatter.match({});
+formatter.match({
+  "location": "TasksStepDefinition.user_verifies_is_displayed(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
+});
+formatter.after({
+  "status": "skipped"
 });
 formatter.scenario({
   "name": "User should be able to create a task",
@@ -431,60 +531,80 @@ formatter.scenario({
     }
   ]
 });
+formatter.before({
+  "status": "skipped"
+});
 formatter.step({
   "name": "user on the landing page",
   "keyword": "Given "
 });
-formatter.match({});
+formatter.match({
+  "location": "TasksStepDefinition.user_on_the_landing_page()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user logs into application with hr46@cybertekschool.com and UserUser",
   "keyword": "Then "
 });
-formatter.match({});
+formatter.match({
+  "location": "TasksStepDefinition.user_logs_into_application_with_hr_cybertekschool_com_and_UserUser(Integer)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user navigate to \"Tasks\"",
   "keyword": "Then "
 });
-formatter.match({});
+formatter.match({
+  "location": "TasksStepDefinition.user_navigate_to(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user clicks on new task",
   "keyword": "And "
 });
-formatter.match({});
+formatter.match({
+  "location": "TasksStepDefinition.user_clicks_on_new_task()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user enters \"task\"",
   "keyword": "Then "
 });
-formatter.match({});
+formatter.match({
+  "location": "TasksStepDefinition.user_enters(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user click \"ADD TASK\"",
   "keyword": "Then "
 });
-formatter.match({});
+formatter.match({
+  "location": "TasksStepDefinition.user_click(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
 });
 formatter.step({
   "name": "user verifies \"task\" is displayed",
   "keyword": "And "
 });
-formatter.match({});
+formatter.match({
+  "location": "TasksStepDefinition.user_verifies_is_displayed(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "skipped"
+});
+formatter.after({
+  "status": "skipped"
 });
 });
